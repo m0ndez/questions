@@ -97,6 +97,9 @@ npm test -- src/utils/__tests__/is-anagram.test.ts
 ### How to Run the Code and Tests
 
 ```bash
+# Copy env file
+cp .env.example .env
+
 # Install dependencies
 npm install
 
