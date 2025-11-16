@@ -1,0 +1,42 @@
+.user-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.results-info {
+  color: #666;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #f5f5f5;
+  }
+
+  .user-name {
+    font-weight: 500;
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 40px;
+    color: #999;
+  }
+}
