@@ -5,10 +5,8 @@
 - [Technical Assessment: React \& TypeScript](#technical-assessment-react--typescript)
   - [Table of Contents](#table-of-contents)
   - [Question 1: Array - Find Missing Number](#question-1-array---find-missing-number)
-    - [Solution](#solution)
     - [Test](#test)
   - [Question 2: String Manipulation - Anagram Checker](#question-2-string-manipulation---anagram-checker)
-    - [Solution](#solution-1)
     - [Test](#test-1)
   - [Question 3: Refactor \& Debug Challenge](#question-3-refactor--debug-challenge)
     - [What Was Improved](#what-was-improved)
@@ -24,10 +22,6 @@
 
 **Location:** `src/utils/find-missing-number.ts`
 
-### Solution
-
-The implementation uses the mathematical formula for the sum of n numbers to efficiently find the missing number in O(n) time complexity with O(1) space complexity.
-
 ### Test
 
 Run the tests with:
@@ -41,10 +35,6 @@ npm test -- src/utils/__tests__/find-missing-number.test.ts
 ## Question 2: String Manipulation - Anagram Checker
 
 **Location:** `src/utils/is-anagram.ts`
-
-### Solution
-
-The implementation normalizes both strings by converting to lowercase and removing spaces, then compares character frequency.
 
 ### Test
 
